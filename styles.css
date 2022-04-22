@@ -31,6 +31,7 @@
 .nav--logo {
     display: grid;
     place-content: center;
+    cursor: pointer;
 }
 
 .nav--logo img {
