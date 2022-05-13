@@ -1,0 +1,20 @@
+@import
+  'vendors/reset';
+
+@import
+  'base/animations',
+  'base/base';
+
+@import
+  'layout/header',
+  'layout/footer';
+
+@import
+  'components/glass',
+  'components/subtitle';
+
+@import
+  'pages/about',
+  'pages/advantages',
+  'pages/contact',
+  'pages/projects';

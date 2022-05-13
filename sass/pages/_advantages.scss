@@ -1,0 +1,66 @@
+.advantages {
+    text-align: center;
+}
+
+.benefits, .process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits__text, .process__text {
+    padding: 2em;
+}
+
+.benefits__text h2, .process__text h2 {
+    margin: 1em;
+}
+
+.benefits__cards, .process__cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.benefits__cards .card, .process__cards .card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.benefits__cards .card .material-icons, .process__cards .card .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  .benefits__cards .card .material-icons:hover, .process__cards .card .material-icons:hover {
+    color: #F9564F;
+    transition: .8s ease;
+  }
